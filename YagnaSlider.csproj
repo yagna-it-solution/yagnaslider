@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F93A2A27-039B-439D-9F29-4DDF5CDAD8DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin\Debug\</OutputPath>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YagnaSlider</RootNamespace>
+    <AssemblyName>YagnaSlider</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
+    <StartArguments>/K  gulp serve</StartArguments>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
+    <StartArguments>/K  gulp serve</StartArguments>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include=".vscode\extensions.json" />
+    <None Include=".vscode\launch.json" />
+    <None Include=".vscode\settings.json" />
+    <None Include=".yo-rc.json" />
+    <None Include="config\config.json" />
+    <None Include="config\copy-assets.json" />
+    <None Include="config\deploy-azure-storage.json" />
+    <None Include="config\package-solution.json" />
+    <None Include="config\serve.json" />
+    <None Include="config\write-manifests.json" />
+    <None Include="generator.log" />
+    <None Include="package-lock.json" />
+    <None Include="package.json" />
+    <None Include="README.md" />
+    <None Include="src\webparts\yagnaSlider\components\YagnaSlider.module.scss" />
+    <None Include="src\webparts\yagnaSlider\YagnaSliderWebPart.manifest.json" />
+    <None Include="tsconfig.json" />
+    <None Include="tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="gulpfile.js" />
+    <Content Include="src\webparts\yagnaSlider\loc\en-us.js" />
+    <Content Include="teams\a7af33d6-5fe1-43cf-ae7b-e3f98536d6c4_color.png" />
+    <Content Include="teams\a7af33d6-5fe1-43cf-ae7b-e3f98536d6c4_outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\index.ts" />
+    <TypeScriptCompile Include="src\webparts\yagnaSlider\components\IYagnaSliderProps.ts" />
+    <TypeScriptCompile Include="src\webparts\yagnaSlider\components\YagnaSlider.tsx" />
+    <TypeScriptCompile Include="src\webparts\yagnaSlider\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\yagnaSlider\YagnaSliderWebPart.ts" />
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

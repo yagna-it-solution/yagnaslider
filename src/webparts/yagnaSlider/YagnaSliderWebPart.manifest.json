@@ -1,0 +1,160 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "a7af33d6-5fe1-43cf-ae7b-e3f98536d6c4",
+  "alias": "YagnaSliderWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+  "supportsFullBleed": true,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "YagnaSlider" },
+    "description": { "default": "A custom image slider" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "YagnaSlider",
+      "sliderId": "1",
+      "sliderHeight": 400,
+      "navigationType": "ArrowsAndDots",
+      "autoPlay": true,
+      "pauseOnHover": true,
+      "inifinityLoop": true,
+      "slideDuration": 5000,
+      "showTimer": true,
+      "timerPosition": "top",
+      "slideNavImg": "arrows-48-48-1",
+      "slideBulletImg": "bullet_24",
+      "slideTransition": "fadein",
+      "contentTransition": "up",
+      "slidesProps": [
+        {
+          "id": "slide1",
+          "sliderId": "1",
+          "slideIndex": 1,
+          "backgroundColor": "purple",
+          "backgroundImage": "",
+          "backgroundSize": "cover",
+          "backgroundOverlay": false,
+          "backgroundOverlayColor": "rgba(0,0,0,0.5)",
+          "backgroundBlendMode": "normal",
+          "slideAnimation": "fadein",
+          "contentAnimation": "up",
+          "contentHorizPosition": "center",
+          "contentVertPosition": "middle",
+          "textAlign": "center",
+          "textColor": "#ffffff",
+          "slideTitle": "Slide 1 Heading",
+          "titleFontFamily": "Tahoma",
+          "titleFontWeight": "bold",
+          "slideDescription": "Click edit button to change this text. Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+          "descFontFamily": "Arial",
+          "buttonText": "Click Here",
+          "buttonUrl": "",
+          "buttonIcon": "",
+          "urlOpenNewWindow": false,
+          "urlAddNoFollow": false
+        },
+        {
+          "id": "slide2",
+          "sliderId": "1",
+          "slideIndex": 2,
+          "backgroundColor": "BlueViolet",
+          "backgroundImage": "",
+          "backgroundSize": "cover",
+          "backgroundOverlay": false,
+          "backgroundOverlayColor": "rgba(0,0,0,0.5)",
+          "backgroundBlendMode": "normal",
+          "slideAnimation": "fadein",
+          "contentAnimation": "up",
+          "contentHorizPosition": "center",
+          "contentVertPosition": "middle",
+          "textAlign": "center",
+          "textColor": "#ffffff",
+          "slideTitle": "Slide 2 Heading",
+          "titleFontFamily": "Tahoma",
+          "titleFontWeight": "bold",
+          "slideDescription": "Click edit button to change this text. Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+          "descFontFamily": "Arial",
+          "buttonText": "Click Here",
+          "buttonUrl": "",
+          "buttonIcon": "",
+          "urlOpenNewWindow": false,
+          "urlAddNoFollow": false
+        },
+        {
+          "id": "slide3",
+          "sliderId": "1",
+          "slideIndex": 3,
+          "backgroundColor": "Maroon",
+          "backgroundImage": "",
+          "backgroundSize": "cover",
+          "backgroundOverlay": false,
+          "backgroundOverlayColor": "rgba(0,0,0,0.5)",
+          "backgroundBlendMode": "normal",
+          "slideAnimation": "fadein",
+          "contentAnimation": "up",
+          "contentHorizPosition": "center",
+          "contentVertPosition": "middle",
+          "textAlign": "center",
+          "textColor": "#ffffff",
+          "slideTitle": "Slide 3 Heading",
+          "titleFontFamily": "Tahoma",
+          "titleFontWeight": "bold",
+          "slideDescription": "Click edit button to change this text. Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+          "descFontFamily": "Arial",
+          "buttonText": "Click Here",
+          "buttonUrl": "",
+          "buttonIcon": "",
+          "urlOpenNewWindow": false,
+          "urlAddNoFollow": false
+        }
+      ],
+      "transitions": [
+        {
+          "key": "fade",
+          "text": "Fade",
+          "duration": 1E3,
+          "easing": "easeOutCubic"
+        },
+        {
+          "key": "fadein",
+          "text": "Fade In",
+          "duration": 1E3,
+          "easing": "easeOutCubic"
+        },
+        {
+          "key": "slideleft",
+          "text": "Slide Left",
+          "duration": 1E3,
+          "easing": "easeOutCubic"
+        },
+        {
+          "key": "slideup",
+          "text": "Slide Up",
+          "duration": 1E3,
+          "easing": "easeOutCubic"
+        },
+        {
+          "key": "slidebottom",
+          "text": "Slide Bottom",
+          "duration": 1E3,
+          "easing": "easeOutCubic"
+        }
+      ],
+      "registrationType": "dummy",
+      "registrationCode": "",
+      "registrationDate": null,
+      "apiUpdater": null
+    }
+  }]
+}
