@@ -1,0 +1,112 @@
+
+
+
+> deasync@0.1.15 install D:\Tanna\WebParts\YagnaSlider\YagnaSlider\node_modules\deasync
+> node ./build.js
+
+`win32-x64-node-10` exists; testing
+Binary is fine; exiting
+
+> node-sass@4.9.3 install D:\Tanna\WebParts\YagnaSlider\YagnaSlider\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\Tanna\AppData\Roaming\npm-cache\node-sass\4.9.3\win32-x64-64_binding.node
+
+> core-js@2.6.10 postinstall D:\Tanna\WebParts\YagnaSlider\YagnaSlider\node_modules\core-js
+> node postinstall || echo "ignore"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall D:\Tanna\WebParts\YagnaSlider\YagnaSlider\node_modules\uglifyjs-webpack-plugin
+> node lib/post_install.js
+
+
+> node-sass@4.9.3 postinstall D:\Tanna\WebParts\YagnaSlider\YagnaSlider\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at D:\Tanna\WebParts\YagnaSlider\YagnaSlider\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Testing binary
+Binary is fine
+added 1862 packages from 1099 contributors and audited 577512 packages in 167.721s
+found 2008 vulnerabilities (1806 low, 10 moderate, 192 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+     _-----_
+    |       |    .--------------------------.
+    |--(o)--|    [0m|[0m      [0mWelcome to the[0m      [0m|[0m
+   `---------Â´   [0m|[0m  [0m[34mS[34mh[34ma[34mr[34me[34mP[34mo[34mi[34mn[34mt[34m [34mC[34ml[34mi[34me[34mn[34mt[34m-[34ms[34mi[34md[34me[0m  [0m|[0m
+    ( _Â´U`_ )    [0m|[0m    [0m[34mS[34mo[34ml[34mu[34mt[34mi[34mo[34mn[34m [34mG[34me[34mn[34me[34mr[34ma[34mt[34mo[34mr[0m    [0m|[0m
+    /___A___\    [0m'--------------------------'
+     |  ~  |     
+   __'.___.'__   
+ Â´   `  |Â° Â´ Y ` 
+
+A folder with solution name [36mYagnaSlider[39m will be created for you.
+A component for the [36mspo[39m environment will be created for you.
+The [36mnpm[39m package manager will be used.
+A web part with the name [36mYagnaSlider[39m will be added to your solution with [36mreact[39m framework.
+Web part description is going to be [36mA custom image slider[39m.
+Let's create a new SharePoint solution.
+Found npm version 6.11.3
+Add new Web part to solution [36myagna-slider[39m.
+   create config\package-solution.json
+   create package.json
+   create config\config.json
+   create config\serve.json
+   create tsconfig.json
+   create .vscode\extensions.json
+   create .vscode\launch.json
+   create .vscode\settings.json
+   create config\copy-assets.json
+   create config\deploy-azure-storage.json
+   create config\write-manifests.json
+   create src\index.ts
+   create gulpfile.js
+   create README.md
+   create tslint.json
+   create .editorconfig
+   create .gitignore
+   create src\webparts\yagnaSlider\components\IYagnaSliderProps.ts
+   create src\webparts\yagnaSlider\components\YagnaSlider.module.scss
+   create src\webparts\yagnaSlider\components\YagnaSlider.tsx
+   create src\webparts\yagnaSlider\YagnaSliderWebPart.ts
+   create src\webparts\yagnaSlider\loc\en-us.js
+   create src\webparts\yagnaSlider\loc\mystrings.d.ts
+   create src\webparts\yagnaSlider\YagnaSliderWebPart.manifest.json
+   create teams\a7af33d6-5fe1-43cf-ae7b-e3f98536d6c4_outline.png
+   create teams\a7af33d6-5fe1-43cf-ae7b-e3f98536d6c4_color.png
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated core-js@1.2.7: core-js@<2.6.8 is no longer maintained. Please, upgrade to core-js@3 or at least to actual version of core-js@2.
+npm WARN deprecated natives@1.1.6: This module relies on Node.js's internals and will break at some point. Do not use it, and update to graceful-fs@4.x.
+npm WARN deprecated es6-collections@0.5.6: not actively maintained anymore
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated kleur@2.0.2: Please upgrade to kleur@3 or migrate to 'ansi-colors' if you prefer the old syntax. Visit <https://github.com/lukeed/kleur/releases/tag/v3.0.0\> for migration path(s).
+npm WARN deprecated flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN ajv-keywords@3.4.1 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN uglifyjs-webpack-plugin@0.4.6 requires a peer of webpack@^1.9 || ^2 || ^2.1.0-beta || ^2.2.0-rc || ^3.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+
+[36m      _=+#####!       [39m
+[36m   ###########|       [39m.-------------------------------------.
+[36m   ###/    (##|(@)    [39m|           Congratulations!          |
+[36m   ###  ######|   \   [39m|  Solution [36myagna-slider[39m is created.  |
+[36m   ###/   /###|   (@) [39m|   Run [33mgulp serve[39m to play with it!   |
+[36m   #######  ##|   /   [39m'-------------------------------------'
+[36m   ###     /##|(@)    [39m
+[36m   ###########|       [39m
+[36m      **=+####!       [39m
+

@@ -1,32 +1,26 @@
-# yagnaslider
-A SharePoint client side image slider webpart. It is developed with React and typescript. There is starting slide image animation. User can add slide and choose image from the property. Each slide have its own property. There are also slider property.
+## yagna-slider
 
-It is SharePoint online modern page client side webpart. If you want, you can use it in SharePoint 2019 or 2016.
+This is where you include your WebPart documentation.
 
-How to use it:
+### Building the code
 
-Before download or run make sure you have node latest version and gulp installed in your system. 
+```bash
+git clone the repo
+npm i
+npm i -g gulp
+gulp
+```
 
-First of all, download the repository. Unzip the files in a folder.
+This package produces the following:
 
-Then from command prompt run 
-$ npm install or npm i
+* lib/* - intermediate-stage commonjs build artifacts
+* dist/* - the bundled script, along with other resources
+* deploy/* - all resources which should be uploaded to a CDN.
 
-So it will install all the required npm packages.
+### Build options
 
-Then run the gulp command -
-
-gulp serve 
-
-It will load in your default browser. 
-
-!caution: If you are running it in your local brunch, then you might not able to include the slide image. Because this feature is only for 
-the Sharepoint on premise. 
-
-If there is any issue, let me know I will fix it.
-
-Enjoy!
-
-Happy coding.
-
-
+gulp clean - TODO
+gulp test - TODO
+gulp serve - TODO
+gulp bundle - TODO
+gulp package-solution - TODO

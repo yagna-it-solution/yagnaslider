@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.9.1",
+    "libraryName": "yagna-slider",
+    "libraryId": "a90726f3-4ba0-49d4-8158-33856eea8647",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "YagnaSlider",
+    "skipFeatureDeployment": "false",
+    "componentType": "webpart",
+    "framework": "react",
+    "componentName": "YagnaSlider",
+    "componentDescription": "A custom image slider",
+    "isCreatingSolution": true,
+    "isDomainIsolated": "false"
+  }
+}
