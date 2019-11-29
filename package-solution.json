@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "yagna-slider-client-side-solution",
+    "id": "a90726f3-4ba0-49d4-8158-33856eea8647",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": false
+  },
+  "paths": {
+    "zippedPackage": "solution/yagna-slider.sppkg"
+  }
+}
