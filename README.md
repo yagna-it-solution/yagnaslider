@@ -1,6 +1,6 @@
 ## yagna-slider
 
-This is where you include your WebPart documentation.
+A Image Slider SharePoint client side WebPart. It has only basic image sliding animations. Nut user can change the properties from the property panel.
 
 ### Building the code
 
