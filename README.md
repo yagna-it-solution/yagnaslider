@@ -11,6 +11,9 @@ A Image Slider SharePoint client side WebPart. It has only basic image sliding a
 
 ![Slider property panel](https://github.com/yagna-it-solution/yagnaslider/blob/master/images/image3.png)
 
+![Slider animation](https://github.com/yagna-it-solution/yagnaslider/blob/master/images/image4.png)
+
+
 ### Building the code
 
 ```bash
