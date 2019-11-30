@@ -1,4 +1,4 @@
-## yagna-slider
+# YagnaSlider
 
 A Image Slider SharePoint client side WebPart. It has only basic image sliding animations. Nut user can change the properties from the property panel.
 
