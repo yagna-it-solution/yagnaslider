@@ -1,7 +1,9 @@
 
 # YagnaSlider
 
-A Image Slider SharePoint client side WebPart. It has only basic image sliding animations. Nut user can change the properties from the property panel.
+A Image Slider SharePoint client side WebPart. It has only basic image sliding animations. Nut user can change the properties from the property panel. It is fully responsive image slider. For local serve you can't set the image of the slides. The image only selectable for SharePoint environment.
+
+### Screenshot of slider.
 
 ![Slider Preview](https://github.com/yagna-it-solution/yagnaslider/blob/master/images/image1.png)
 
