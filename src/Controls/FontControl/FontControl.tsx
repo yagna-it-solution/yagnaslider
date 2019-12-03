@@ -143,7 +143,7 @@ export class FontControl extends React.Component<IFontControlProps, IFontControl
             reject: (error) => void) => {
             setTimeout((): void => {
                 let options = [];
-                jQuery.getJSON('https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyCic1SXYMp4NeqNVBxZ7aKZivETzgUYeQ0', 
+                jQuery.getJSON('https://www.googleapis.com/webfonts/v1/webfonts?key=aaa', 
                 (data:any) => {
                     jQuery.each( data.items, (index: number, font) => {
                         if(font['category'].toLowerCase() === 'sans-serif' || font['category'].toLowerCase() === 'serif'){
